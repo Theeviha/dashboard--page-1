@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Filters</title>
+    <link rel="stylesheet" href="page 2.css">
+</head>
+<body>
+    <div class="content">
+    <h1>Student Filters</h1></div>
+    <form class="container">
+        <div class="column">
+            <div class="filter-item">
+                <label for="student-id">Student ID</label>
+                <input type="text" id="student-id" name="student-id">
+            </div>
+            <div class="filter-item">
+                <label for="batch-code">Batch Code</label>
+                <input type="text" id="batch-code" name="batch-code">
+            </div>
+            <div class="filter-item">
+                <label for="trainer-wise">Trainer Wise</label>
+                <input type="text" id="trainer-wise" name="trainer-wise">
+            </div>
+            <div class="filter-item">
+                <label for="course">Course</label>
+                <input type="text" id="course" name="course">
+            </div>
+            <div class="filter-item">
+                <label for="student-status">Student Status</label>
+                <input type="text" id="student-status" name="student-status">
+            </div>
+            <div class="filter-item">
+                <label for="project-completion">Project Completion</label>
+                <input type="text" id="project-completion" name="project-completion">
+            </div>
+        </div>
+        <div class="column">
+            <div class="filter-item">
+                <label for="task-completion">Required task completion for certificate</label>
+                <input type="text" id="task-completion" name="task-completion">
+            </div>
+            <div class="filter-item">
+                <label for="certified-candidates">Certified Candidates</label>
+                <input type="text" id="certified-candidates" name="certified-candidates">
+            </div>
+            <div class="filter-item">
+                <label for="placement-preparation">Placement Preparation Candidates</label>
+                <input type="text" id="placement-preparation" name="placement-preparation">
+            </div>
+            <div class="filter-item">
+                <label for="placed-students">Placed Students</label>
+                <input type="text" id="placed-students" name="placed-students">
+            </div>
+            <div class="filter-item">
+                <label for="course-ctc">Course CTC</label>
+                <input type="text" id="course-ctc" name="course-ctc">
+            </div>
+            <div class="filter-item">
+                <label for="interviews-attended">Number of Interviews Attended</label>
+                <input type="text" id="interviews-attended" name="interviews-attended">
+            </div>
+        </div>
+        <div class="submit-container">
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

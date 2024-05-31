@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student Details</title>
+    <link rel="stylesheet" href="page 3.css">
+</head>
+<body>
+
+<h2>Update Student Details</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'PersonalDetails')">Personal Details</button>
+  <button class="tablinks" onclick="openTab(event, 'ContactDetails')">Contact Details</button>
+  <button class="tablinks" onclick="openTab(event, 'CourseDetails')">Course Details</button>
+</div>
+
+<div id="PersonalDetails" class="tabcontent">
+  <h3>Personal Details</h3>
+  <label for="studentId">Student ID</label>
+  <input type="text" id="studentId" name="studentId" placeholder="Enter student ID">
+
+  <label for="firstName">First Name</label>
+  <input type="text" id="firstName" name="firstName" placeholder="Enter first name">
+
+  <label for="lastName">Last Name</label>
+  <input type="text" id="lastName" name="lastName" placeholder="Enter last name">
+
+  <button type="submit">Submit</button>
+</div>
+
+<div id="ContactDetails" class="tabcontent">
+  <h3>Contact Details</h3>
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" placeholder="Enter email">
+
+  <label for="phone">Phone Number</label>
+  <input type="text" id="phone" name="phone" placeholder="Enter phone number">
+
+  <button type="submit">Submit</button>
+</div>
+
+<div id="CourseDetails" class="tabcontent">
+  <h3>Course Details</h3>
+  <label for="courseId">Course ID</label>
+  <input type="text" id="courseId" name="courseId" placeholder="Enter course ID">
+
+  <label for="courseName">Course Name</label>
+  <input type="text" id="courseName" name="courseName" placeholder="Enter course name">
+
+  <button type="submit">Submit</button>
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Copy-of-BINUS-Apa-Itu-Strategi-Marketing-Communication-dan-Contoh-Penerapannya_.jpg);
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 10px 20px;
+    border-top: none;
+}
+.tabcontent input[type="text"], .tabcontent input[type="number"] {
+    
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #d00c0c;
+    box-sizing: border-box;
+}
+.tabcontent button {
+    background-color: #1c08f7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+}
+.tabcontent button:hover {
+    opacity: 0.8;
+}
